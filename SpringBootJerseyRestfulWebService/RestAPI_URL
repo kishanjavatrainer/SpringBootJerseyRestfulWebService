@@ -1,0 +1,20 @@
+getAllUsers:::
+http://localhost:8080/users
+----------------------------------------------------------------------------------
+getUserById:::
+http://localhost:8080/users/user/{userId}
+----------------------------------------------------------------------------------
+createUser
+http://localhost:8080/users/user/create
+JSON Input:::
+{"id":3,"firstName":"Martin","lastName":"Bingel"}
+----------------------------------------------------------------------------------
+updateUser:::
+http://localhost:8080/users/update/{userId}
+JSON Input:::
+{"id":3,"firstName":"Martin","lastName":"Nelson"}
+----------------------------------------------------------------------------------
+deleteUser:::
+http://localhost:8080/users/delete/{userId}
+----------------------------------------------------------------------------------
+
